@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Metro News" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Technology" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Business" />
+
+        <item
+            android:id="@+id/nav_geography"
+            android:title="Geography" />
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:title="Entertainment" />
+    </group>
+
+</menu>

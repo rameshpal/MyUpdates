@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pal.myupdates">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Network.NetworkRequests"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GadgetsHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SportsHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MusicHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".GeographyHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".BusinessHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".NewsHeadlines"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".NewsDetails"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
